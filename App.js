@@ -10,7 +10,7 @@ import {
   convertTemperatureTo,
   getOppositeUnit,
 } from "./utils/temperature.js";
-import { get } from "react-native/Libraries/TurboModule/TurboModuleRegistry.js";
+import { ButtonConvert } from "./components/ButtonConvert/ButtonConvert";
 
 export default function App() {
   const [inputValue, setInputValue] = useState(0);
@@ -35,7 +35,7 @@ export default function App() {
                 Temperature={getConvertedTemperature()}
               />
               <Input currentUnit={unit} onChange={setInputValue} />
-              <Text>Button</Text>
+              <ButtonConvert />
             </View>
           </SafeAreaView>
         </SafeAreaProvider>

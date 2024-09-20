@@ -1,7 +1,7 @@
 import { StyleSheet } from "react-native";
 
 export const s = StyleSheet.create({
-  TemperatureText: {
+  ButtonText: {
     fontSize: 50,
     color: "white",
   },
