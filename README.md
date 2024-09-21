@@ -18,7 +18,6 @@ Make sure you have the following installed on your machine:
 - Node.js (version 12 or later)
 - npm (comes with Node.js)
 - React Native CLI
-- Android Studio or Xcode (for Android or iOS development respectively)
 
 ### Clone the Repository
  git clone
