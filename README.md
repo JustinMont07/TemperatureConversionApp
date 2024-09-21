@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Temperature Converter app is a simple React Native application that allows users to convert temperatures between Celsius and Fahrenheit. The app provides a user-friendly interface for quick and easy temperature conversions. The background changes depending on the temperature entered in order to represent if it is below or above freezing.
+The Temperature Converter app is a simple React Native application that allows users to convert temperatures between Celsius and Fahrenheit. The app provides a user-friendly interface for quick and easy temperature conversions. The background changes depending on the temperature entered to represent whether it is below or above freezing.
 
 ## Features
 
@@ -20,7 +20,7 @@ Make sure you have the following installed on your machine:
 - React Native CLI
 
 ### Clone the Repository
- git clone
+ git clone https://github.com/JustinMont07/temperatureConverter.git
 
  ### Install dependencies 
  npm install
